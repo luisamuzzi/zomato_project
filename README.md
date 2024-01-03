@@ -1,10 +1,10 @@
-# Projeto Fome Zero:
+# Projeto Zomato:
 
 ## 1. Problema de negócio
 
-A empresa Fome Zero é uma marketplace de restaurantes. Ou seja, seu core business é facilitar o encontro e negociações de clientes e restaurantes. Os restaurantes fazem o cadastro dentro da plataforma da Fome Zero, que disponibiliza informações como endereço, tipo de culinária servida, se possui reservas, se faz entregas e também uma nota de avaliação dos serviços e produtos do restaurante, dentre outras informações.
+A empresa Zomato é uma marketplace de restaurantes. Ou seja, seu core business é facilitar o encontro e negociações de clientes e restaurantes. Os restaurantes fazem o cadastro dentro da plataforma da Zomato, que disponibiliza informações como endereço, tipo de culinária servida, se possui reservas, se faz entregas e também uma nota de avaliação dos serviços e produtos do restaurante, dentre outras informações.
 
-Você acaba de ser contratado como Cientista de Dados da empresa Fome Zero, e a sua principal tarefa nesse momento é ajudar o CEO a identificar pontos chaves da empresa, respondendo às perguntas que ele fizer utilizando dados. O CEO também foi recém contratado e precisa entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a Fome Zero, e para isso, ele precisa que seja feita uma análise nos dados da empresa e que sejam gerados dashboards, a partir dessas análises, para responder às seguintes perguntas:
+Você acaba de ser contratado como Cientista de Dados da empresa Zomato, e a sua principal tarefa nesse momento é ajudar o CEO a identificar pontos chaves da empresa, respondendo às perguntas que ele fizer utilizando dados. O CEO também foi recém contratado e precisa entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a Zomato, e para isso, ele precisa que seja feita uma análise nos dados da empresa e que sejam gerados dashboards, a partir dessas análises, para responder às seguintes perguntas:
 
 ### Informações gerais:
 
@@ -40,6 +40,7 @@ O objetivo desse projeto é criar um conjunto de gráficos e/ou tabelas que exib
 
 1. Marketplace foi o modelo de negócio assumido.
 2. As 4 principais visões do negócio foram: Visão geral, visão países, visão cidades e visão tipos culinários.
+3. Os dados foram obtidos em: https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?resource=download&select=zomato.csv
 
 ## 3. Estratégias da solução
 
@@ -84,7 +85,7 @@ Cada visão é representada pelo seguinte conjunto de métricas:
 
 Painel online, hospedado em um Cloud e disponível para acesso em qualquer dispositivo conectado à internet.
 
-O painel pode ser acessado através desse link: https://lm-fome-zero.streamlit.app/
+O painel pode ser acessado através desse link: https://zomatoproject-luisamuzzi.streamlit.app/
 
 ## 6. Conclusão
 
