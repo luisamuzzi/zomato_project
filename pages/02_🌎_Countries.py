@@ -322,21 +322,37 @@ image = Image.open('logo.png')
 
 # Colunas para logo e nome da empresa:
 with st.sidebar:
-    
-    col1, col2 = st.columns(2)
+
+    col1, col2, col3 = st.columns([1,6,1])
 
     with col1:
 
+        st.write("")
+
+    with col2:
+
         st.image(image=image, use_column_width=True)
-    
+
+    with col3:
+
+        st.write("")
+
+    col1, col2, col3 = st.columns([1,6,1])
+
+    with col1:
+
+        st.write("")
+
     with col2:
         
-        st.markdown('')
-        st.markdown('')
-        st.markdown('# Fome Zero')
-        
+        st.markdown('## Food Delivery & Dining')
+
+    with col3:
+
+        st.write("")
+
     st.markdown("""___""")
-    
+
 # Seletor de países:  
 st.sidebar.markdown('## Filtros')
     
@@ -346,6 +362,9 @@ country_options = st.sidebar.multiselect('Escolha os países dos quais deseja vi
 # Filtro países:
 linhas_selecionadas = df['country'].isin(country_options)
 df = df.loc[linhas_selecionadas, :]
+
+# Contato:
+st.sidebar.markdown("### Feito por [Luísa Muzzi](https://luisamuzzi.github.io/portfolio_projetos/)")
 
 #==============================================
 # Layout no streamlit
